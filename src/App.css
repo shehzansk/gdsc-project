@@ -1,0 +1,550 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=Plus+Jakarta+Sans:wght@400&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  color:#5F5F5F;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  text-decoration: none;
+  
+}
+.navBar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  padding: 0 30px; /* Adjust padding for spacing on the sides */
+  box-shadow: 0 4px 6px rgba(27, 27, 27, 0.498);
+}
+ul{
+  list-style: none;
+  display: flex;
+  margin: 20px 0 0 0;
+  padding: 0;
+  font-size: 1.25rem;
+}
+li{
+  margin-right: 35px;
+  color:#868686 
+}
+#logo{
+  display: flex;
+  justify-content: center;
+}
+.icontext{
+  margin: 15px 0 0 10px;
+  font-weight: 500;
+  color: #868686;
+
+}
+
+.Links{display: flex;
+  align-items: center;
+}
+#icon1{
+  width: 60px;
+  height: 35px;
+  padding: 7px 0px 0px 30px;
+  cursor: pointer;
+}
+#icon2{
+  width: 65px;
+  height: 33px;
+  margin-top: -3px;
+  cursor: pointer;
+}
+#flexBox{
+  display: flex;
+  justify-content: center;
+}
+#imagePeople{
+  width: 82%;
+  margin-top: 10px;
+}
+#imagePeople2{
+  width: 62%;
+}
+
+#paragraph{
+  font-size: 2.3rem;
+  display: flex;
+  justify-content: center;
+  width: 62%;
+  text-align: center;
+  color: #5F5F5F;
+}
+
+#flexBox button{
+  margin-top: 35px;
+  background-color: #3686F7;
+  padding: 10px 30px;
+  font-size: 19px;
+  color: #fff;
+  text-transform: uppercase;
+  border: hidden;
+  border-radius: 7px;
+  font-weight: 750;
+  cursor: pointer;
+}
+
+#flexBox button:hover{
+  background-color: #296ac6;
+  width: 200px;
+  height: 50px;
+  font-size: 23px;
+  box-shadow: 0 5px 15px rgba(68, 67, 67, 0.907);
+}
+#drop1{
+  margin-top: 20px;
+}
+
+#getus{
+  font-size: 2.8rem;
+  font-weight: 650;
+  color:#5F5F5F;
+}
+#flexBox1{
+  display: flex;
+ justify-content: center;
+}
+#underline-container{
+  width: 150px; /* Adjust the width as needed */
+    margin: 0 auto; /* Center horizontally */
+    border: none; /* Remove the default border */
+    border-top: 3px solid #4285F4;
+    margin-top: 15px;
+}
+#underline{
+  font-size: 35px;
+  color: #5f5f5f;
+  margin-top: 50px;
+  font-weight: 600;
+}
+
+#underline-container2{
+  width: 150px;
+    margin: 0 auto;
+    border: none; 
+    border-top: 3px solid #0F9D56;
+    margin-top: 15px;
+}
+#underline-container3{
+  width: 150px; 
+    margin: 0 auto;
+    border: none; 
+    border-top: 3px solid #DB4437;
+    margin-top: 15px;
+}
+#image-text-container1{
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+#image-text-container1 p {
+  font-size: 28px;
+  text-align: right;
+  margin-right: 10px;
+}
+
+#image-text-container1 img{
+  width: 500px;
+  height: 420px;
+  margin-left: 20px;
+  margin-bottom: 15px;
+}
+
+#image-text-container1 div{
+  width: 45%;
+  display: flex;
+  align-self: center;
+}
+#image-text-container1 hr{
+  height: 200px;
+  width: 25px;
+  background-color:#296ac6;
+  border-radius: 0 15px 15px 0;
+  margin-top:-23px;
+  margin-right: 25px;
+}
+#image-text-container1 #image-text-container1-hr1{
+  height: 285px;
+  width: 40px;
+  background-color:#0F9D56;
+  border-radius: 25px 0 0 25px;
+  margin-top:-23px;
+  margin-left: 25px;
+}
+#image-text-container1 #image-text-container1-p1 {
+  text-align: left;
+}
+
+#image-text-container1 #image-text-container1-hr{
+  height: 320px;
+  width: 45px;
+  background-color:#DB4437;
+  border-radius: 0 15px 15px 0;
+  margin-top:-23px;
+  margin-right: 25px;
+}
+
+.four-circle-container{
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 150px;
+  margin-bottom: 150px;
+  
+}
+.four-circle-container div{
+  text-align: center;
+  font-size: 30px;
+  color: #353535;
+  font-weight: 650;
+}
+.four-circle-container .circle-shape{
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  border: 12px solid;
+  border-color: #EA4435 #547DBF #F9BC15 #33A852;
+  transform: rotate(-45deg);
+  margin-bottom: 10px;
+}
+.four-circle-container .circle-shape .circle-shape-content{
+  transform: rotate(45deg);
+  font-size: 50px;
+  font-weight: 750;
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+  margin-top: 18px;
+  margin-right: 5px;
+  margin-left: 0px;
+  color: #5F5F5F;
+}
+.four-circle-container .circle-shape .circle-shape-content1{
+  transform: rotate(45deg);
+  font-size: 50px;
+  font-weight: 750;
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px; 
+  margin-top: 30px;
+  margin-right: -11px;
+  color: #5F5F5F;
+}
+
+#technology-container {
+  display: flex;
+  justify-content: center; /* Center the content horizontally */
+  align-items: center; /* Center the content vertically */
+}
+
+#technology-container hr {
+  flex-grow: 1; /* Allow the <hr /> to expand horizontally */
+  height: 5px; /* Set the height to create a horizontal line */
+  width: 90px;
+  background-color: #FF6060; /* Set the line color to black or your desired color */
+  border: none; /* Remove the default border */
+  margin: 0 60px 0 60px; 
+}
+
+#technology-container p{
+  font-size: 45px;
+  font-weight: 650;
+}
+#technology-container-end{
+  text-align: center;
+  font-size: 20px;
+  font-weight: 650;
+  margin-top: 10px;
+  margin-bottom: 70px ;
+}
+#technology-threebox{
+  display: flex;
+  justify-content: space-around;
+}
+#firstBox{
+  height: 170px;
+  width: 250px;
+  text-align: center;
+  margin-bottom: 60px;
+  border-radius: 30px;
+  box-shadow: 0 5px 25px rgba(68, 67, 67, 0.907);
+  border: hidden;
+}
+#firstBox img{
+  margin-top: 10px;
+  margin-bottom: -5px;
+  height:100px;
+  width: 100px;
+}
+#firstBox hr{
+  width: 65%;
+  margin: 0 auto;
+  height: 5px;
+  background-color: #EA4335;
+  border-color: #EA4335;
+  border-radius: 10px;
+  margin-top: -11px;
+}
+#firstBox #hrOfFlutter{
+  background-color: #4285F4;
+  border-color: #4285F4;
+}
+#firstBox #hrOfCloud{
+  background-color: #34A853;
+  border-color: #34A853;
+}
+#firstBox p{
+  font-size: 25px;
+  font-weight: 550;
+  margin-top: 5px;
+  margin-bottom: -20px;
+}
+
+.footer{
+  background: linear-gradient(to right,#F1F1F1,#3D78DA,#5342F4);
+  border-radius: 60px 60px 0 0 ;
+  padding-top: 30px;
+}
+.footer #flex-box{
+  display: flex;
+  justify-content: space-evenly;
+}
+.footer #flex-box-inside{
+  display: flex;
+  flex-direction: column;
+  align-items: center ;
+  padding: 10px;
+  font-size: 20px;
+}
+.footer #flex-box-inside img{
+  margin-bottom: 15px;
+  margin-left: -30px;
+}
+.footer hr{
+  width: 75%;
+  margin: 0 auto; 
+}
+.footer div{
+  text-align: center;
+  color: white;
+  padding-bottom: 15px;
+}
+#footerImage{
+  height: 50px;
+  margin-right: 10px;
+  margin-top: 5px;
+}
+#footerImage2{
+  height: 32px;
+  margin-right: 10px;
+  margin-top: 5px;
+}
+.footer #address{
+  margin-top: 20px;
+  display: flex;
+  justify-content:flex-start;
+}
+.social-container{
+  display: flex;
+  font-size: 15px;
+}
+.social-container .shape{
+  display: flex;
+  justify-content: center;
+  border-radius: 50%;
+  width: 60px;
+  background-color: #fff;
+  margin-right: 20px;
+  margin-top: 15px
+}
+#social-image{
+  margin-top: 10px;
+  height: 35px;
+  width: 35px;
+  cursor: pointer;
+}
+.footer a{
+  color: white;
+}
+
+/* -> Adding the media query for screens with a maximum width of 768px (mobile devices) */
+@media (max-width: 780px) {
+  .navBar {
+    flex-direction: column; 
+    height: auto; 
+    align-items: center; 
+  }
+  
+  ul {
+    padding: 0;
+    margin-top: 9px;
+    margin-right: 10px;
+    font-size: 0.7rem;
+    display: flex; 
+    justify-content: space-between;
+    }
+  
+  #icon1{
+    height: 17px;
+    width: 30px;
+    margin-left: -50px;
+    margin-bottom: 3px;
+  }
+  #icon2{
+    height: 18px;
+    width: 33px;  
+    margin: 3px 0 0 3px;
+    align-self:center ;
+  }
+
+  .icontext{
+    font-size: 12px;
+    margin-top: 8px;
+  }
+  
+  li {
+    margin: 10px 15px;
+  }
+
+  .Links {
+    margin-left: 0;
+    margin-top: 0;
+  }
+  #paragraph{
+    font-size: 1.3rem;
+    
+  }
+  #flexBox button{
+    width: 110px;
+    height: 35px;
+    font-size: 12px;
+  }
+  
+  #flexBox button:hover{
+    width: 140px;
+    height: 42px;
+    font-size: 20px;
+  }
+  #drop1{
+    width: 75px;
+  }
+  #getus{
+    font-size: 1.8rem;
+  }
+  #image-text-container1 div{
+    width: 100%;
+  }
+  #image-text-container1{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 100%;
+
+  }
+  #image-text-container1 img{
+    height: 280px;
+    width: 300px;
+    margin-left: 50px;
+  }
+  #image-text-container1 p{
+    font-size: 20px;
+  }
+  #image-text-container1 hr{
+    height: 200px;
+    width: 25px;
+  }
+  #image-text-container1 #image-text-container1-hr1{
+    height: 270px;
+    width: 40px;
+  }
+  #image-text-container1 #image-text-container1-hr{
+    height: 300px;
+    width: 50px;
+  }
+
+  .four-circle-container{
+    margin-top: 25px;
+    flex-direction: column;
+    margin-top: 60px;
+  }
+  .four-circle-container .circle-shape{
+    height: 125px;
+    width: 125px;
+    margin-left: 120px;
+    margin-top: 50px;
+    }
+  .four-circle-container .circle-shape .circle-shape-content{
+    font-size: 45px;
+}
+.four-circle-container .circle-shape .circle-shape-content1{
+  font-size: 40px;
+}
+#technology-container hr {
+  margin: 0 30px 0 30px; 
+}
+
+#technology-container p{
+  font-size: 25px;
+}
+#technology-container-end{
+  font-size: 16px;
+}
+#firstBox{
+  height: 100px;
+  width: 120px;
+}
+
+#firstBox img{
+  height:50px;
+  width: 50px;
+}
+#firstBox hr{
+  width: 55%;
+  margin: 0 auto;
+  height: 4px;
+  margin-top: -11px;
+}
+#firstBox p{
+  font-size: 18px;
+  font-weight: 650;
+}
+
+.footer{
+  font-size: 12px;
+}
+.footer #flex-box-inside{
+  font-size: 18px;
+}
+#address{
+  margin-right: 10px;
+
+}
+.social-container .shape{
+  width: 30px;
+  height: 20px;
+  margin-right: -10px;
+}
+#social-image{
+  height: 15px;
+  width: 15px;
+}
+.social-container {
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-right: 5px;
+}
+#footerImage{
+  height: 30px;
+  margin-right: 6px;
+}
+#footerImage2{
+  height: 22px;
+  margin-right: 7px;
+}
+}
+
+
