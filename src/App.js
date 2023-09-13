@@ -1,5 +1,5 @@
+import DarkMode from "./DarkMode"
 import icon1 from './icon1.png';
-import darkTheme from './darkTheme.png';
 import imagePeople from './image-people.png';
 import imagePeople2 from './image-people2.png';
 import drop1 from './drop.png';
@@ -19,7 +19,8 @@ import linkedIn from './linkedIn.png';
 import './App.css';
 
 function App() {
-  return (<>
+  return (
+  <div className='dark'>
   <div className="navBar">
     <div id="logo">
     <img id="icon1" src = {icon1}></img> <span className='icontext'>GDSC RCOEM</span>
@@ -32,16 +33,18 @@ function App() {
             <li><a href="/">Teams</a></li>
             <li><a href="/">Alumni</a></li>
             <li><a href="/">Contact</a></li>
-            <img id="icon2" src = {darkTheme}></img>
           </ul>  
-      </nav>    
+      </nav>
+      <div> <DarkMode /> </div>    
     </div>
   </div>
   
   <div id="flexBox">
   <img id="imagePeople" src = {imagePeople}></img>
   </div>
-
+    <div id="flexBox">
+      <p id="Rcoem">RCOEM Chapter</p>
+    </div>
   <div id="flexBox">
   <img id="imagePeople2" src = {imagePeople2}></img>
   </div>
@@ -77,7 +80,7 @@ function App() {
       <img id="image-text1" src = {imagetext1}></img>
       <div id="image-text-container1-para">
         <p>Our mission involves community engagement, leadership development, building strong tech foundation, while enabling all tech enthusiasts to contribute to the global society.</p>
-        <hr />
+        
       </div>
   </div>
   
@@ -90,10 +93,9 @@ function App() {
   </div>
   <div id="image-text-container1">
       <div>
-        <hr id="image-text-container1-hr1"/>
         <p id="image-text-container1-p1">We're a community-driven initiative aiming to bridge the gap between research and practice, develop evolutionary thinking and network throughout the process. We believe in connecting fellow developers, spreading stimulative ideas and working for a solution driven team.</p>
       </div>
-      <img id="image-text1" src = {imagetext2}></img>
+      <img id="image-text2" src = {imagetext2}></img>
       
   </div>
 
@@ -101,16 +103,15 @@ function App() {
     <p id="underline">What Keeps Us Going</p>
   </div>
   <div id="underline-container3">
-    <hr color="#DB4437"></hr>
   </div>
 
   <div id="image-text-container1">
       
-      <img id="image-text1" src = {imagetext3}></img>
+      <img id="image-text3" src = {imagetext3}></img>
       <div>
-        <p>Our club helps students to connect, learn, empower and grow. Teamwork, innovative thinking, communication, and leading with solutions is what helps us achieve new heights.
+        <p id = "image-text-container1-p2">Our club helps students to connect, learn, empower and grow. Teamwork, innovative thinking, communication, and leading with solutions is what helps us achieve new heights.
         The entire team works in coordination, to inspire and motivate the upcoming coding community to evolve their skills and broaden their horizons of knowledge.</p>
-        <hr id="image-text-container1-hr"/>
+        
       </div>
   </div>
   <div className="four-circle-container">
@@ -202,7 +203,7 @@ function App() {
         Made with &#10084; by GDSC RCOEM
       </div>
     </footer>
-  </>
+  </div>
   );
 }
 

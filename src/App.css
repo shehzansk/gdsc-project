@@ -2,17 +2,21 @@
 *{
   margin: 0;
   padding: 0;
-  color:#5F5F5F;
+  color: var(--body_color);
   font-family: 'Plus Jakarta Sans', sans-serif;
   text-decoration: none;
   
+}
+.dark{
+  background-color: var(--body_background);
+  color: var(--body_color);
 }
 .navBar{
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 60px;
-  padding: 0 30px; /* Adjust padding for spacing on the sides */
+  padding: 0 30px;
   box-shadow: 0 4px 6px rgba(27, 27, 27, 0.498);
 }
 ul{
@@ -24,7 +28,10 @@ ul{
 }
 li{
   margin-right: 35px;
-  color:#868686 
+}
+li a{
+  color: var(--link_color);
+  
 }
 #logo{
   display: flex;
@@ -33,12 +40,15 @@ li{
 .icontext{
   margin: 15px 0 0 10px;
   font-weight: 500;
-  color: #868686;
-
 }
 
 .Links{display: flex;
   align-items: center;
+}
+
+.Links div{
+  margin-top: 1px;
+  margin-left: -5px;
 }
 #icon1{
   width: 60px;
@@ -56,8 +66,13 @@ li{
   display: flex;
   justify-content: center;
 }
+#Rcoem{
+  font-weight: 900;
+  font-size: 33px;
+  margin: -7px 0 15px 0; 
+}
 #imagePeople{
-  width: 82%;
+  width: 68%;
   margin-top: 10px;
 }
 #imagePeople2{
@@ -70,7 +85,6 @@ li{
   justify-content: center;
   width: 62%;
   text-align: center;
-  color: #5F5F5F;
 }
 
 #flexBox button{
@@ -94,28 +108,27 @@ li{
   box-shadow: 0 5px 15px rgba(68, 67, 67, 0.907);
 }
 #drop1{
-  margin-top: 20px;
+  margin: 25px 0;
+  width: 40px;
 }
 
 #getus{
   font-size: 2.8rem;
   font-weight: 650;
-  color:#5F5F5F;
 }
 #flexBox1{
   display: flex;
  justify-content: center;
 }
 #underline-container{
-  width: 150px; /* Adjust the width as needed */
-    margin: 0 auto; /* Center horizontally */
-    border: none; /* Remove the default border */
+  width: 150px; 
+    margin: 0 auto; 
+    border: none; 
     border-top: 3px solid #4285F4;
     margin-top: 15px;
 }
 #underline{
   font-size: 35px;
-  color: #5f5f5f;
   margin-top: 50px;
   font-weight: 600;
 }
@@ -142,14 +155,23 @@ li{
 #image-text-container1 p {
   font-size: 28px;
   text-align: right;
-  margin-right: 10px;
+  margin-right: 13px;
+  margin-left: 13px;
+  padding: 15px 10px 10px 15px;
+  border-right: 10px solid #296ac6;
+  border-radius: 0px 10px 10px 0px;
+  
 }
 
 #image-text-container1 img{
-  width: 500px;
-  height: 420px;
+  width: 530px;
+  height: 370px;
   margin-left: 20px;
   margin-bottom: 15px;
+}
+#image-text-container1 #image-text1{
+  width: 420px;
+  height: 370px;
 }
 
 #image-text-container1 div{
@@ -157,33 +179,18 @@ li{
   display: flex;
   align-self: center;
 }
-#image-text-container1 hr{
-  height: 200px;
-  width: 25px;
-  background-color:#296ac6;
-  border-radius: 0 15px 15px 0;
-  margin-top:-23px;
-  margin-right: 25px;
-}
-#image-text-container1 #image-text-container1-hr1{
-  height: 285px;
-  width: 40px;
-  background-color:#0F9D56;
-  border-radius: 25px 0 0 25px;
-  margin-top:-23px;
-  margin-left: 25px;
-}
+
+
+
 #image-text-container1 #image-text-container1-p1 {
   text-align: left;
+  border-left: 10px solid #0F9D56;
+  border-radius: 10px 0 0 10px;
+  padding-left: 8px;
+  border-right: 0px;
 }
-
-#image-text-container1 #image-text-container1-hr{
-  height: 320px;
-  width: 45px;
-  background-color:#DB4437;
-  border-radius: 0 15px 15px 0;
-  margin-top:-23px;
-  margin-right: 25px;
+#image-text-container1 #image-text-container1-p2 {
+  border-right: 10px solid #DB4437;  
 }
 
 .four-circle-container{
@@ -197,7 +204,6 @@ li{
 .four-circle-container div{
   text-align: center;
   font-size: 30px;
-  color: #353535;
   font-weight: 650;
 }
 .four-circle-container .circle-shape{
@@ -219,7 +225,6 @@ li{
   margin-top: 18px;
   margin-right: 5px;
   margin-left: 0px;
-  color: #5F5F5F;
 }
 .four-circle-container .circle-shape .circle-shape-content1{
   transform: rotate(45deg);
@@ -230,21 +235,20 @@ li{
   padding: 10px; 
   margin-top: 30px;
   margin-right: -11px;
-  color: #5F5F5F;
 }
 
 #technology-container {
   display: flex;
-  justify-content: center; /* Center the content horizontally */
-  align-items: center; /* Center the content vertically */
+  justify-content: center;
+  align-items: center; 
 }
 
 #technology-container hr {
-  flex-grow: 1; /* Allow the <hr /> to expand horizontally */
-  height: 5px; /* Set the height to create a horizontal line */
+  flex-grow: 1;
+  height: 5px; 
   width: 90px;
-  background-color: #FF6060; /* Set the line color to black or your desired color */
-  border: none; /* Remove the default border */
+  background-color: #FF6060; 
+  border: none; 
   margin: 0 60px 0 60px; 
 }
 
@@ -328,7 +332,7 @@ li{
 }
 .footer div{
   text-align: center;
-  color: white;
+  color: rgb(255, 255, 255);
   padding-bottom: 15px;
 }
 #footerImage{
@@ -412,6 +416,12 @@ li{
     margin-left: 0;
     margin-top: 0;
   }
+
+  .Links div{
+    margin-top: -3px;
+    margin-left: 0px;
+  }
+
   #paragraph{
     font-size: 1.3rem;
     
@@ -428,7 +438,8 @@ li{
     font-size: 20px;
   }
   #drop1{
-    width: 75px;
+    width: 30px;
+
   }
   #getus{
     font-size: 1.8rem;
@@ -444,9 +455,14 @@ li{
 
   }
   #image-text-container1 img{
-    height: 280px;
-    width: 300px;
+    height: 180px;
+    width: 280px;
     margin-left: 50px;
+    margin-top: 15px;
+  }
+  #image-text-container1 #image-text1{
+    width: 280px;
+    height: 230px;
   }
   #image-text-container1 p{
     font-size: 20px;
