@@ -1,70 +1,59 @@
-# Getting Started with Create React App
+# GDSC RCOEM Chapter
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Frontend Web Developer Task
 
-## Available Scripts
+### Introduction
 
-In the project directory, you can run:
+This repository contains my submission for the GDSC RCOEM Chapter's Recruitment Drive 2023-2024. I have completed the Frontend Web Developer task by designing a static website using ReactJS based on the provided Figma UI design.
 
-### `npm start`
+### Project Overview
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+I have created a static website as per the task requirements using ReactJS. You can access the hosted website [here](https://shehzan-gdsc-rcoem.onrender.com/).
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Project Details
 
-### `npm test`
+- **Figma Design**: I extracted design elements, including images, color codes, and fonts, from the Figma UI design provided.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **ReactJS**: I used ReactJS to implement the base project with all its features and objects as specified in the Figma design.
 
-### `npm run build`
+- **Responsiveness**: The website is designed to be responsive, ensuring a seamless user experience on different screen sizes.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Additional Styling
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+In addition to the base project, I have added some extra styling elements such as buttons, icons, and images to enhance the overall aesthetics and user interactivity.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Technologies Used
 
-### `npm run eject`
+- ReactJS
+- HTML
+- CSS
+- JavaScript (if applicable)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### How to View the Website
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+You can view the hosted website by clicking https://shehzan-gdsc-rcoem.onrender.com/ .
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Repository Structure
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- `src/`: The main source code directory for the ReactJS application.
+  - `components/`: Components used to build the web page.
+  - `App.js`: The main ReactJS component.
+  - `index.js`: The entry point of the application.
+- `public/`: Public assets such as HTML template and images.
+- `screenshots/`: Screenshots of the website.
+- `package.json`: Dependencies and scripts.
+- `README.md`: This file.
 
-## Learn More
+### Screenshots
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+(screenshots/screenshot1.png)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+### Contact
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+If you have any questions or feedback about my project, please feel free to reach out to me.<br>
 
-### Analyzing the Bundle Size
+Thank you for considering my application for the Frontend Web Developer position.<br>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Best regards,
+Shehzan Ahmed Sheikh
