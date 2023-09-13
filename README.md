@@ -27,7 +27,7 @@ In addition to the base project, I have added some extra styling elements such a
 - ReactJS
 - HTML
 - CSS
-- JavaScript (if applicable)
+- JavaScript
 
 ### How to View the Website
 
