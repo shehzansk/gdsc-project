@@ -200,7 +200,7 @@ function App() {
       </div>
       <div>
         <hr color="white"/>
-        Made with &#10084; by GDSC RCOEM
+        Made with &#10084; by <a href="https://www.linkedin.com/company/gdsc-rcoem/" target="_blank">Shehzan Sheikh</a>
       </div>
     </footer>
   </div>
